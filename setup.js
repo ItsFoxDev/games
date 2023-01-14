@@ -13,5 +13,5 @@ function changeFavicon(src) {
 document.title = gameid + ' | FoxDev';
 var iframe = document.createElement('iframe');
 iframe.src = srcurl;
-document.body.appendChild('iframe');
+document.body.appendChild(iframe);
 changeFavicon(icourl);
